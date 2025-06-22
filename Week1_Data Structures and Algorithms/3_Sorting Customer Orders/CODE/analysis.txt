@@ -1,0 +1,18 @@
+ANALYSIS
+Bubble Sort is a basic method that compares each pair of orders and keeps swapping them if they are in the wrong order. It is easy to understand but very slow when there are many orders. It checks and swaps too many times, which takes time.
+
+Quick Sort is a faster method. It picks one order as a middle point (called a pivot), then puts all smaller orders before it and larger ones after it. This way, the sorting happens in smaller parts, which is much quicker.
+
+Time taken:
+
+Bubble Sort takes more time when there are many orders.
+
+Quick Sort works faster for both small and large order lists.
+
+When to use which:
+
+Use Bubble Sort only when you have very few orders, or just to learn sorting.
+
+Use Quick Sort when you want to sort many orders quickly, like in real e-commerce apps.
+
+So, in real platforms where speed matters, Quick Sort is the better choice.

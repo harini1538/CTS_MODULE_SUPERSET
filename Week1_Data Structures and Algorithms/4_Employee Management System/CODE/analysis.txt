@@ -1,0 +1,33 @@
+Analysis
+Array Representation in Memory
+Arrays are stored in a continuous block of memory, making access by index fast and efficient.
+
+Advantages of Arrays
+
+Easy to use and understand
+
+Fast access to any element using index
+
+Good when the number of employees is fixed or small
+
+Time Complexity of Operations
+
+Add: O(1) (if space is available)
+
+Search: O(n) (checks each employee one by one)
+
+Traverse: O(n) (visits all elements)
+
+Delete: O(n) (shifts elements after deletion)
+
+Limitations of Arrays
+
+Fixed size — can’t grow once full
+
+Slow insert/delete in the middle due to shifting
+
+Not memory-efficient if array is too large and unused
+
+When to Use Arrays
+Use arrays when the number of employees is known and does not change often. Avoid them if you expect a lot of add/delete operations.
+

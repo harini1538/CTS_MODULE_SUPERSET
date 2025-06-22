@@ -1,0 +1,21 @@
+ANALYSIS
+
+
+Big O notation makes it easier to comprehend how an algorithm's speed varies as the number of products rises.
+Searching Linearly
+examines every product individually.
+Easy to use, even if the list isn't sorted.
+slower when there are a lot of items.
+Complexity of time: O(n)
+Binary Search: Always begins in the centre and divides the search space in half.
+only functions if the product list has already been sorted.
+a lot quicker when there are a lot of products.
+Complexity of time: O(log n)
+In contrast:
+Linear search is easier but slower for large lists.
+Binary search requires sorted data but is faster.
+Which one should I use?
+For small or unsorted lists, use linear search.
+For extensive and sorted product lists, use binary search.
+On actual e-commerce sites:
+For quicker search results, binary search or database indexing is preferable.

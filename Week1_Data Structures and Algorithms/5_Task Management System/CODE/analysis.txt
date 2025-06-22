@@ -1,0 +1,23 @@
+ Analysis
+Add Task:
+Time complexity is O(n)
+We must go to the end of the list to add the new task.
+
+Search Task:
+Time complexity is O(n)
+We search each node one by one until we find the task.
+
+Delete Task:
+Time complexity is O(n)
+We first search for the task and then update the links.
+
+Traverse Tasks:
+Time complexity is O(n)
+We go through every task from the beginning to the end.
+
+ Advantages of Linked List over Arrays
+No fixed size — the list can grow as needed.
+
+Inserting and deleting tasks is easier and doesn't require shifting other elements.
+
+Better suited for dynamic systems where tasks change often.

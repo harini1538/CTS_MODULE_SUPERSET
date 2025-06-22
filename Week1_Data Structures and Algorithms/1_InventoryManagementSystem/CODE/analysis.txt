@@ -1,0 +1,50 @@
+ANALYSIS
+Big O notation helps understand how fast inventory operations (like add, update, delete) perform as the number of products increases.
+
+Using ArrayList:
+
+Stores items in a simple list format.
+
+Adding to the end is usually fast.
+
+Searching or updating takes longer since it may need to check each item.
+
+Time complexity:
+
+Add: O(1) (at end), O(n) (at specific position)
+
+Search/Update/Delete: O(n)
+
+Using HashMap:
+
+Stores products using a key (like productId), so it can find items directly.
+
+Faster for search, update, and delete.
+
+Works well even with large inventories.
+
+Time complexity:
+
+Add: O(1)
+
+Search: O(1)
+
+Update: O(1)
+
+Delete: O(1)
+
+In contrast:
+
+ArrayList is easier but slower for large inventories.
+
+HashMap is faster and more efficient for quick access by productId.
+
+Which one should I use?
+
+Use ArrayList for small or simple systems.
+
+Use HashMap for large inventories with frequent updates or lookups.
+
+On actual inventory systems:
+
+HashMap or database tables with indexing are better for fast and scalable inventory management.

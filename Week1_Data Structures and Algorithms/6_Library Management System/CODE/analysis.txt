@@ -1,0 +1,27 @@
+Analysis
+Linear Search
+
+Checks each book one by one.
+
+Easy to implement.
+
+Works even if the list is not sorted.
+
+Slower when the number of books is large.
+
+Time Complexity: O(n)
+
+Binary Search
+
+Divides the list and checks the middle element.
+
+Only works if the list is sorted.
+
+Much faster for large collections.
+
+Time Complexity: O(log n)
+
+When to Use What
+Use linear search for small or unsorted book lists.
+
+Use binary search for large and sorted book lists.

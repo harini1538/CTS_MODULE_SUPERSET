@@ -1,0 +1,26 @@
+ Analysis
+Time Complexity:
+
+The recursive function runs once for each year.
+
+So, time complexity is O(n) where n = number of years.
+
+Space Complexity:
+
+Each recursive call adds a new layer to the call stack.
+
+Space complexity is also O(n) because of the recursion depth.
+
+Advantages of Recursion
+The logic is clean and easy to understand.
+
+Matches the natural structure of problems involving repeated growth or steps.
+Disadvantages
+Uses more memory than a loop due to recursive stack frames.
+
+Can cause a stack overflow error if the number of years is very large.
+
+When to Use
+Use recursion for short-term forecasting or when clarity of code is important.
+
+Use an iterative approach for large year values to improve performance and prevent stack overflow.
