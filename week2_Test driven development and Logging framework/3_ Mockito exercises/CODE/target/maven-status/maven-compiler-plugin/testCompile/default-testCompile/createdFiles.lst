@@ -1,0 +1,7 @@
+com\example\MyServiceTest5_MultipleReturns.class
+com\example\MyServiceTest1_MockingAndStubbing.class
+com\example\MyServiceTest4_HandleVoidMethod.class
+com\example\MyServiceTest6_VerifyOrder.class
+com\example\MyServiceTest3_ArgumentMatching.class
+com\example\MyServiceTest7_VoidException.class
+com\example\MyServiceTest2_VerifyInteraction.class
